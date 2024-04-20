@@ -24,9 +24,22 @@ h1, h2, h3 {
   background-image: linear-gradient(to right, #4a6b9c, #0093c6, #00b9be, #00d982, #a8eb12);
 
 }
-
 .navbar{
   border: none;
+}
+.navbar-default .navbar-brand{
+  color:white;
+}
+.navbar-default .navbar-brand:hover{
+  color:white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav li a {
+  color:white;
+}
+.navbar-default .navbar-nav li a:hover{
+  color:white;
+  opacity: 0.75;
 }
 .home-callout{
   margin-top:-20px;
