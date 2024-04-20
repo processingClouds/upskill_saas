@@ -48,6 +48,9 @@ gem 'bootstrap-sass', '3.3.7'
 
 gem 'sass-rails'
 
+gem 'font-awesome-sass', '4.6.2'
+
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
