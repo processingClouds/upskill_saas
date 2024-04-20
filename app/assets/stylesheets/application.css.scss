@@ -18,3 +18,13 @@
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar{
+  //Gradient created using https://cssgradient.io/
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 62%, rgba(0,212,255,1) 100%);
+}
+
+.navbar{
+  border: none;
+}
