@@ -19,14 +19,14 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="sr-only">Toggle Navigation</span>
             </button>
-            <a class="navbar-brand" href="/"><i class="fa fa-group"></i>DevMatch</a>
+            <%= link_to "/", class: "navbar-brand" do %>
+                <i class="fa fa-group"></i>
+                DevMatch
+            <% end %>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-              <li><a class="nav-link active" href="/about">About</a></li>
+              <li><%= link_to "About", "/about" %></li>
           </ul>
         </div>
       </div>
