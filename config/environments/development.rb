@@ -74,5 +74,7 @@ Rails.application.configure do
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
   config.hosts << "31572930e0844c19a2486b42687aa328.vfs.cloud9.eu-north-1.amazonaws.com"
+  config.hosts << "d9549a7e98ff4285a09b970fcc3d0cb8.vfs.cloud9.eu-north-1.amazonaws.com"
+
 
 end
