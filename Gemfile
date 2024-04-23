@@ -69,9 +69,9 @@ group :development do
   # gem "spring"
 end
 
+gem 'pg', '0.18.4'
 group :production do
   # use the PostGreSql
-  gem 'pg', '0.18.4'
 end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
