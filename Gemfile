@@ -60,6 +60,9 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 end
 
+# Use Devise for user Authentication
+gem 'devise', '4.8.1'
+
 group :development do
   # Use sqlite3 as the database for Active Record
   gem "sqlite3", "~> 1.3" 
