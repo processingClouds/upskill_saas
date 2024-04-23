@@ -20,6 +20,14 @@ test:
   <<: *default
   database: storage/test.sqlite3
 
+# production:
+#   <<: *default
+#   database: storage/production.sqlite3
 production:
   <<: *default
-  database: storage/production.sqlite3
+  adapter: postgresql
+  encoding: unicode
+  database: my_rails_app_production
+  pool: 5
+  username: postgres
+  password:
