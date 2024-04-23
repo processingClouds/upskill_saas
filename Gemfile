@@ -69,7 +69,7 @@ group :development do
   # gem "spring"
 end
 
-gem 'pg', '1.2.1'
+gem 'pg', '0.18.4'
 group :production do
   # use the PostGreSql
 end
