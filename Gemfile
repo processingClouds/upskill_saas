@@ -54,6 +54,11 @@ gem 'hirb', '0.7.3'
 # gem 'pg', '0.18.4'
 gem 'pg', '~> 1.2', '>= 1.2.3'
 
+# Use stripe payment processing
+gem 'stripe', '1.48.0'
+
+# Use figaro for ENV variables
+gem 'figaro'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
