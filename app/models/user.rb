@@ -5,6 +5,12 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   belongs_to :plan
   
+  
+  # If pro user passes validation (email, password, ets)
+  # than call Stripe and tell stripe to setup a subscription upon charging 
+  # the cusomter's card
+  # Stripe responds back with customer data.
+  # Store customer.id as the customer token and save the user.
   attr_accessor :stripe_card_token
   def save_with_subscription
     if valid?
